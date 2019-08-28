@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <title>Upload Data</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1 class="display-4 text-center pt-5 " > Enter the Data</h1>
+  <div class="text-center ">
+    <form  method="post" action="/Upload">
+  <div class="form-group">
+    <input type="text"  name="author[name]" placeholder="name">
+
+      </div>
+  <div class="form-group">
+    <input type="text" name="author[phonenumber]" placeholder="phonenumber">
+
+     </div>
+  <div class="form-group">
+    <input type="email" name="author[email]" placeholder="email">
+
+        </div>
+  <div class="form-group">
+    <input type="text" name="book[name]" placeholder="book_name">
+
+           </div>
+ <div class="form-group">
+   <input type="text" name="book[author]" placeholder="book_author">
+
+              </div>
+ <div class="form-group">
+   <input type="text" name="book[price]" placeholder="book_price">
+
+                  </div>
+ <div class="form-group">
+   <input type="submit" value="Submit">
+                      </div>
+
+</form>
+</div>
+</div>
+  </body>
+</html>
